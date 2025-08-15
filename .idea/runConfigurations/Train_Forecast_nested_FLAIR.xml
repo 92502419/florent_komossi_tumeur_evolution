@@ -1,0 +1,14 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Train Forecast (nested FLAIR)" type="PythonConfigurationType" factoryName="Python">
+    <module name="$PROJECT_NAME$" />
+    <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+    <option name="PARAMETERS" value="--scan_nested --modality FLAIR --data_root &quot;G:\PKG - Yale-Brain-Mets-Longitudinal\Yale-Brain-Mets-Longitudinal&quot; --train_forecast --batch_size 1 --cache_rate 0.1 --forecast_epochs 10 --multitask_seg" />
+    <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    <option name="ADD_CONTENT_ROOTS" value="true" />
+    <option name="ADD_SOURCE_ROOTS" value="true" />
+    <option name="EMULATE_TERMINAL" value="false" />
+    <option name="MODULE_MODE" value="false" />
+    <envs />
+    <method v="2" />
+  </configuration>
+</component>
