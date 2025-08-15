@@ -334,7 +334,7 @@ def load_csv_if_exists(path: str) -> Optional[pd.DataFrame]:
 # UI
 # =========================
 st.set_page_config(page_title="Tumor Evolution Dashboard", layout="centered")
-st.title(" EVOLUTION DE TUMEUR — TABLEAU DE BORD (1 colonne, aspect mm)")
+st.title(" EVOLUTION DE TUMEUR — TABLEAU DE BORD ")
 
 with st.sidebar:
     st.header(" Importation et Options")
